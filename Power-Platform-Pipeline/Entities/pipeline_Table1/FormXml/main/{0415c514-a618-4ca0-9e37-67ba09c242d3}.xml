@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0415c514-a618-4ca0-9e37-67ba09c242d3}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{79f87670-b9f6-48ef-bf2e-8a6910e9bfbd}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4d04b851-4610-4d9f-9f2f-2f933374a4fd}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bf01b469-0e44-417e-952e-e930f0ce03c0}">
+                        <labels>
+                          <label description="Student Name" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_studentname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pipeline_studentname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ad9cad23-07d5-4357-866f-ccc87cfa8b6d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{26f0ee47-5be6-47bc-8694-82fea0e92525}">
+                        <labels>
+                          <label description="Student ID" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_studentid" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="pipeline_studentid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e47328b-af03-4113-8f55-c2011f8cb195}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_contact" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="pipeline_contact" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7af1fde2-00b3-4f99-b1f9-68e2d185552b}">
+                        <labels>
+                          <label description="F Name" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_fname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="pipeline_fname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2553b4c5-763f-4c05-8818-0afe3b8a8fa0}">
+                        <labels>
+                          <label description="M Name" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_mname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="pipeline_mname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d36c9618-6294-4178-969b-64eaa1a4df9f}">
+                        <labels>
+                          <label description="Standard" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_standard" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="pipeline_standard" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{36e49050-f683-4e46-a352-36b7b6080fea}">
+                        <labels>
+                          <label description="Reports To" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_reportsto" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="pipeline_reportsto" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

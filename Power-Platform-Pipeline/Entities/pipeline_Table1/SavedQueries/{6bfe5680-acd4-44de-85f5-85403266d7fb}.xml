@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6bfe5680-acd4-44de-85f5-85403266d7fb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="pipeline_studentname" select="1" icon="1" preview="1">
+        <row name="result" id="pipeline_table1id">
+          <cell name="pipeline_studentname" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="pipeline_studentid" width="150" />
+          <cell name="pipeline_contact" width="150" />
+          <cell name="pipeline_fname" width="150" />
+          <cell name="pipeline_mname" width="150" />
+          <cell name="pipeline_standard" width="150" />
+          <cell name="pipeline_reportsto" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="pipeline_table1">
+          <attribute name="pipeline_table1id" />
+          <attribute name="pipeline_studentname" />
+          <attribute name="createdon" />
+          <order attribute="pipeline_studentname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="pipeline_studentid" />
+          <attribute name="pipeline_contact" />
+          <attribute name="pipeline_fname" />
+          <attribute name="pipeline_mname" />
+          <attribute name="pipeline_standard" />
+          <attribute name="pipeline_reportsto" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Table1S" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

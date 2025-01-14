@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0cf849eb-31ca-4e5f-b876-0be665bba735}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8f0aba56-bc4d-4f55-bc86-00950a915958}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{68db9645-433c-4bfe-b478-36ef747ab730}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2d7a8c09-f712-4905-8540-1e76fa65d7e4}">
+                        <labels>
+                          <label description="Employee Name" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_employeename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="pipeline_employeename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{45e0d771-be79-4551-99cf-ee1cd010df0a}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1d0d2730-c2d2-44ba-9bd2-efd4cbde4d44}">
+                        <labels>
+                          <label description="Salary" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_salary" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="pipeline_salary" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{804aea4e-6e86-42d9-9aef-c235b7e3c836}">
+                        <labels>
+                          <label description="Experience" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_experience" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="pipeline_experience" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e8b5505b-2001-49e7-953e-63880cac9947}">
+                        <labels>
+                          <label description="Gender" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_gender" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="pipeline_gender" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2cf4932c-0f8e-4b2f-abad-bd40e5bca0a3}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_contact" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="pipeline_contact" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{948e9967-c896-490d-9a7d-f63e1bf3fe58}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="pipeline_address" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="pipeline_address" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
